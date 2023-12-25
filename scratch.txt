@@ -1,0 +1,21 @@
+pip install -r requirements.txt
+python -m venv blog-env 
+pip freeze
+uvicorn main:app --reload
+
+
+postgresql ---postico
+pydantic --data validation
+olmbic ---migrations,tracking migration history, to seed database with some json data
+flake8 for code linting
+pre-commit setup git hooks 
+
+poetry--pakage management and dependency manager
+black-- auto formatter
+
+
+python -m venv venv
+activate the virtual env
+poetry init
+poetry add uvicorn fastapi
+uvicorn main:app --reload
